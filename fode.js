@@ -1,3 +1,4 @@
-let x = ['a', 'b', 'c', 'd'];
-let y = "hello";
-module.exports = { x, y };
+console.log(__dirname);
+console.log(__filename);
+const {people} = require('./node');
+console.log(people)
