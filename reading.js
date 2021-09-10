@@ -7,4 +7,5 @@ fs.readFile('./file_system_operations/data.txt',(err,data)=>{
     else{
         console.log(data.toString());
     }
+    
 })
