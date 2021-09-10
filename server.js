@@ -1,11 +1,11 @@
 // we have created server , see the routing operations , listen request and how to response , add status codes
-const http = require("http");
+/*const http = require("http");
 const fs = require("fs");
 
 const server = http.createServer((req, res) => {
     res.setHeader("Content-type", "text/html");
     let path = "./";
-    switch (req.url) {
+    /*switch (req.url) {
         case "/":
             path += "index.html";
             res.statusCode = 200;
@@ -37,4 +37,4 @@ const server = http.createServer((req, res) => {
 
 server.listen(3000, "localhost", () => {
     console.log("listen request at port 3000");
-});
+});*/
