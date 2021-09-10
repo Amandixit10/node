@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Amandixit10/node/issues"
   },
-  "homepage": "https://github.com/Amandixit10/node#readme"
+  "homepage": "https://github.com/Amandixit10/node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
