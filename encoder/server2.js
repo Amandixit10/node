@@ -10,7 +10,7 @@ function calculate(req,res,next){
         data=new Buffer(data,'base64').toString('ascii')
         req.query[q]=data
     }
-    next()
+    next();
 }
 app.get('/eval',calculate,(req,res)=>{
     console.log(req.query)

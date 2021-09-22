@@ -1,8 +1,17 @@
-let x=document.getElementById('area')
-let y=document.getElementById('encode')
-let z=document.getElementById('eval')
-y.onclick=()=>{
-    let val=x.value; 
+let code=document.getElementById('area')
+let encode=document.getElementById('encode')
+let eval=document.getElementById('eval')
+let encrypt=document.getElementById('encrypt');
+encode.onclick=()=>{
+    let val=code.value; 
    val=btoa(val);
-    document.getElementById('code').value=val;
+    document.getElementById('show').value=val;
+}
+encrypt.onclick=()=>{
+    let val=encryptdata(code.value);
+    document.getElementById('show').value=val;
+}
+function encryptdata(data)
+{
+    return 'XXXXXXXXXXX';
 }
